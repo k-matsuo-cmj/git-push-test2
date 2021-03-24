@@ -1,0 +1,14 @@
+SELECT
+SELECT [DISTINCT] { <select_expression> | <table_name>.* | * } [, ... ] 
+
+[ INTO <new_table> ] 
+
+FROM <table_list> 
+
+[ WHERE <expression> ] 
+
+[ GROUP BY <expression> [, ...] ] 
+
+[ ORDER BY <order_expression> [, ...] ] 
+
+[ { UNION [ALL] | {MINUS|EXCEPT} | INTERSECT } <select_statement> ] 
