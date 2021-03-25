@@ -1,7 +1,6 @@
 INSERT INTO
 INSERT INTO <table_name> [ ( <column_name> [,...]) ]  { VALUES (<expression> [,...])| <SELECT Statement> } 
 
-1つ以上の新しいデータ行を表に挿入します。
 
 SELECT
 SELECT [DISTINCT] { <select_expression> | <table_name>.* | * } [, ... ] 
@@ -31,4 +30,3 @@ FROM <table_list>
 
 { <column_number> | <column_alias> | <select_expression> } [ ASC | DESC ] 
 
-スキーマの1つ以上の表から情報を取得します。
